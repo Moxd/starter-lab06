@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Order #3 of Andrew Morishita, includes one burger with peanut butter.
+-->
+
+<!DOCTYPE order SYSTEM 'bonanza.dtd'>
+
+<order type="takeout">
+    <customer>Andrew Morishita</customer>
+    <burger>
+        <patty type="bison"/>
+        <cheeses top="jack" bottom="swiss"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <topping type="bacon"/>
+        <sauce type="ketchup"/>
+        <sauce type="peanutbutter"/>
+        <sauce type="fksauce"/>
+    </burger>
+    <burger>
+        <patty type="turkey"/>
+        <cheeses top="swiss" bottom="gruyere"/>
+        <topping type="lettuce"/>
+        <topping type="tomato"/>
+        <topping type="bacon"/>
+        <topping type="fkchili"/>
+        <sauce type="mustard"/>
+        <sauce type="mayo"/>
+    </burger>
+</order>
+
